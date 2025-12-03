@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <head
+      meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    ></head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>filozoflar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+            * {
+              margin: 0px;
+            }
+            .filozof {
+              display: flex;
+              align-items: center;
+              gap: 20px;
+              margin-bottom: 30px;
+              color: #f5e6cc;
+              display: flex;
+              align-items: center;
+              margin-right: 10px;
+              margin: 50px;
+            }
+            .filozof img {
+              width: 250px;
+              border-radius: 200px;
+            }
+            .filozof img:hover {
+              color: red;
+            }
+
+
+            header {
+              text-align: center;
+              margin: 20px;
+            }
+            nav {
+              text-align: center;
+            }
+            body {
+              background-color: #1f2933;
+              font-family: "Poppins", sans-serif;
+            }
+
+            .filozoff {
+              display: flex;
+              align-items: center;
+              gap: 20px;
+              margin-bottom: 30px;
+              display: inline-block;
+            }
+            .filozoff img {
+              width: 270px;
+              border-radius: 20px;
+            }
+
+            p {
+              color: white;
+              font-weight: 400;
+              line-height: 1.6;
+            }
+
+            .head {
+              color: #d4af37;
+            }
+            a {
+              text-decoration: none;
+              color: #f5e6cc;
+              cursor: pointer;
+              transition: color 0.3s;
+            }
+            a:hover {
+              color: red;
+            }
+
+            .filozof p:active,
+            .filozof a:active,
+            .aristo:active {
+              color: red;
+            }
+            .Ana {
+              color: #fff;
+              background-color: #1f2933;
+            }
+            .aristo:hover {
+              color: red;
+            }
+
+            .Ana:hover {
+              color: red;
+            }
+            .aristo {
+              cursor: pointer;
+              transition: color 0.3s;
+            }
+            i:hover {
+              color: red;
+              cursor: pointer;
+              transition: color 0.3s;
+            }
+            .irade {
+              color: #fff;
+              font-weight: 400;
+              line-height: 1.6;
+              font-weight: 700;
+              position: relative;
+              left: 10px;
+            }
+            .sözlük {
+              color: #fff;
+              font-weight: 400;
+              line-height: 1.6;
+              font-weight: 700;
+              position: relative;
+              right: 10px;
+            }
+
+
+
+
+
+            @media screen and (max-width: 768px) {
+
+          h2 {
+              font-size: 1.5em;
+          }
+
+          /* YENİ EKLENECEK KODLAR BURADA: */
+
+          /* 1. Tüm sayfanın kenar boşluklarını sıfırla */
+          body {
+              margin: 0;
+              padding: 0;
+          }
+
+          /* 2. Filozof listesinin etrafındaki büyük boşlukları azalt */
+          .filozof , .filozoff { /* veya listeyi çevreleyen div'in adı neyse */
+              padding: 10px; /* Sadece küçük bir boşluk bırak */
+          }
+
+          /* 3. Resimli listelerin içeriğini küçült (Örn: Nietzsche resmi ve yazısı) */
+          .filozof , .filozoff { /* Her bir filozofun kutusunun sınıfı */
+              padding: 10px 5px; /* Dikey boşluk kalsın, yatay boşluk azalsın */
+              flex-direction: column; /* Eğer yan yana duruyorsa, alt alta gelsin */
+          }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a class="sözlük" href="felsefe_sözlüğü.html">Felsefe Sözlüğü</a>
+      <a class="Ana" href="kitap_okuma_listesi.html"><b>Kitap Önerileri</b></a>
+      <a class="irade" href="Özgür_İrade.html">Özgür İrade</a>
+    </nav>
+    <header>
+      <h1>
+        <i style="color: #d4af37"
+          >Bu sitede her şey benim görüş açıma göre oluşturulmuştur!</i
+        >
+      </h1>
+      <h1 class="head">İşte Felsefenin Kralları 👑</h1>
+    </header>
+    <section class="filozof">
+      <tr>
+        <td>
+          <img
+            src="https://www.yenimarmaragazetesi.com/static/2024/08/02/sokrates-kimdir-felsefenin-dahi-dusunuru-1722613461-138_large.webp"
+            alt
+            width="300"
+            alt=""
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h1>
+            <a href="Sokrates.html"><i>Sokrates</i></a>
+          </h1>
+          <p>
+            <b
+              >Felsefenin atası olduğu öne sürülen Sokrates kendi olduğu zamanda
+              oranın neredeyse ağası gibi bir şeymiş modern felsefe'de mesela
+              karşı çıkmak bol bol vardır birine sen hiçbirşey bilmiyosun
+              diyince sana emin olabilirsin ki karşı argüman sunar lakin söz
+              Sokratesin ağzından çıktığında bunu o zamanki ilim sahibi insanlar
+              kabul etmiş "Tek bildiğim şey hiçbirşey Bilmediğimdir" bu sözünü
+              ilk okuduğumda Sokrates gibi birinin bile nasıl hiçbirşey
+              bilmiceğini falan düşünmüştüm laki daha detaylı okudukça
+              kendiminde hiçbirşey bilmediğimi farkettim çünkü okudukça yeni
+              şeyler öğrenmekle beraber ne kadar şey bilmediğimi farkettim.</b
+            >
+          </p>
+        </td>
+      </tr>
+    </section>
+    <section class="filozof">
+      <tr>
+        <td>
+          <img
+            src="https://storage.evrimagaci.org/content/a16f77ce-e569-4a19-b759-753982097b58.jpeg"
+            ald
+            width="300"
+            alt=""
+          />
+        </td>
+
+        <td>
+          <h1>
+            <a href="platon.html"><i>Platon </i></a>
+          </h1>
+          <p>
+            <b
+              >Platon kendi hocası Sokrates kadar bilgili olan biridir hatta
+              bazılarına göre boynuz kulağı geçmiştir yazmış olduğu devlet
+              kitabını okurken gerçekten kafam allak bullak olmuştu Sokrates'in
+              cevaba ulaştırmak için karşısındakine sayısızca soru sorması ve en
+              son kıvama geldiğinde cevabı söylemesi sizi hayrete düşerebilir
+              çünkü beni de düşürdü.</b
+            >
+          </p>
+        </td>
+      </tr>
+    </section>
+    <section class="filozof">
+      <tr>
+        <td>
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf6wl5PUsgDJa25zugk3mq1N0Rv-hB8ogF-Q&s"
+            ald
+            width=""
+            alt=""
+          />
+        </td>
+
+        <td>
+          <h1>
+            <a href="nietsche.html"><i>Nietzsche </i></a>
+          </h1>
+          <p>
+            <b
+              >Friendrich Nietzsche gerçekten çok fazla okudum denemez lakin
+              şöyle buyurdu zerdüşt kitabı gerçekten okuduğum en iyi kitaplardan
+              biridir hatta okuyan kitlenin çoğunluğunun da tepkisi böyledir ki
+              Nietzsche bir kıtabında der ki:'Ben bir mehdi değilim olmak ta
+              istemiyorum' bu sözleriyle kendisinin kibirli bir insan olmadığını
+              anlayabiliyoruz şu sözlerini de alıntılamak istiyorum:"Eğer ki
+              uzun süre bir uçuruma bakarsanız uçurumda size bakmaya
+              başlar.","Tanrının olması değil beni cezbeden Tanrıların olması
+              işte bu beni daha çok cezbeder","Tanrıların olduğu bir evrende
+              Tanrı olmamaya nasıl dayanabilirim ki." "Tanrı öldü."
+            </b>
+          </p>
+        </td>
+      </tr>
+    </section>
+    <section class="filozof">
+      <tr>
+        <td>
+          <img
+            src="https://iasbh.tmgrup.com.tr/590eb6/752/395/0/29/725/410?u=https://isbh.tmgrup.com.tr/sbh/2023/10/22/aristoteles-kimdir-aristoteles-eserleri-sozleri-felsefesi-ve-hayati-e1-1697982261930.jpeg"
+            alt=""
+          />
+        </td>
+        <h1>
+          <i class="aristo">Aristoteles </i>
+        </h1>
+        <p>
+          <b
+            >Aristoteles Platonun öğrencisidir bundan dolayı da tabiki felsefe
+            bilgisi çok fazladır lakin Platonun öğrencisi olmasına rağmen çoğu
+            fikirde Platonla zıtlaşmıştır hatta çoğunda mesela Aristoteles bir
+            deisttir herşeyin bir tetikleyicisi olduğu kanısındadır:"Madem
+            insanlar kendi kendilerine var oldular bunun bile bir tetikleyicisi
+            olması gerekir herşeyin bir tetikleyicisi vardır." bu sözüne karşı
+            aslında söylenebilecek çok fazla argüman vardır mesela ben okurken
+            ilk aklıma gelen fikir:'Madem herşeyin bir tetikleyicisi unsuru var
+            peki Tanrı, Tanrının tetikleyicisi ne.'
+          </b>
+        </p>
+      </tr>
+    </section>
+    <section class="filozof">
+      <tr>
+        <td>
+          <img
+            src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2013/11/15/1384536164966/Bertrand-Russell-008.jpg?width=465&dpr=1&s=none&crop=none"
+            alt=""
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h1>
+            <i><a href="Bertrand_Resull.html">Bertrand Russel </a></i>
+          </h1>
+          <p>
+            <b
+              >İlk felsefe tarihini okurken anlaşılır dili ve özgün bakış açısı
+              benim çok dikkatimi çekmişti özgünlüğü olsun detaya girmesi olsun
+              güzel özetleri olsun benim için çok önemli bir filozof.</b
+            >
+          </p>
+        </td>
+      </tr>
+    </section>
+    <section class="filozof">
+      <tr>
+        <td>
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaMYrmg1FWpd_dg6F6alk_jKIK0liblXVEPg&s"
+            alt=""
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h1>
+            <i><a href="Albert_camus.html">Albert Camus</a></i>
+          </h1>
+          <p>
+            <b
+              >Benim felsefeye başlamamdaki en büyük etkenlerden biri Camuya
+              olan sevgimdir gerek fikirleri gerek realistliği olsun gerekse
+              yazdığı yabancı kitabındaki karakteri yansıtması olsun gerçekten
+              çok ama çok özel bir insandır benim için burda birkaç sözünü
+              alıntılamak istiyorum: "İnsan er ama geç Herşeye alışır." ,"Bir
+              ülkeyi tanımak istiyosanız o ülkedeki insanların nasıl öldüğüne
+              bakın."</b
+            >
+          </p>
+        </td>
+      </tr>
+    </section>
+  </body>
+</html>
