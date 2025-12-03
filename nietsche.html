@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <head
+      meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    ></head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Okuduklarım</title>
+    <style>
+      * {
+        text-align: center;
+      }
+      body {
+        background-color: #dc143c;
+      }
+      a {
+        text-decoration: none;
+        color: #fff;
+        padding: 5px;
+        display: inline-block;
+        margin-bottom: 30px;
+        position: relative;
+        padding: 1px;
+        top: 20px;
+        background: #fc997c;
+      }
+
+      a:hover {
+        border: 2px solid #fc997c;
+        background-color: #fff;
+        cursor: pointer;
+        transition: background-color 0.5s;
+        color: #fc997c;
+      }
+      img {
+        box-shadow: 5px 10px 15px 10px black;;
+        margin: 20px;
+
+
+      }
+
+      @media screen and (max-width: 768px) {
+
+          h2 {
+              font-size: 1.5em;
+          }
+
+          /* YENİ EKLENECEK KODLAR BURADA: */
+
+          /* 1. Tüm sayfanın kenar boşluklarını sıfırla */
+          body {
+              margin: 0;
+              padding: 0;
+          }
+
+          /* 2. Filozof listesinin etrafındaki büyük boşlukları azalt */
+          .filozof , .filozoff { /* veya listeyi çevreleyen div'in adı neyse */
+              padding: 10px; /* Sadece küçük bir boşluk bırak */
+          }
+
+          /* 3. Resimli listelerin içeriğini küçült (Örn: Nietzsche resmi ve yazısı) */
+          .filozof , .filozoff { /* Her bir filozofun kutusunun sınıfı */
+              padding: 10px 5px; /* Dikey boşluk kalsın, yatay boşluk azalsın */
+              flex-direction: column; /* Eğer yan yana duruyorsa, alt alta gelsin */
+          }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html"><h1>Ana Menüye Dön</h1></a>
+    </nav>
+    <section>
+      <img
+        src="https://img.kitapyurdu.com/v1/getImage/fn:4441507/wh:true/wi:800"
+        ald
+        width="185"
+        alt=""
+      />
+    </section>
+    <br /><br />
+    <section>
+      <img
+        src="https://i.dr.com.tr/cache/600x600-0/originals/0000000412373-1.jpg"
+        ald
+        width="200"
+        alt=""
+      />
+    </section>
+    <br /><br />
+    <section>
+      <img
+        src="https://m.media-amazon.com/images/I/4112L1IlSLL._UF1000,1000_QL80_.jpg"
+        ald
+        width="200"
+        alt=""
+      />
+    </section>
+  </body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Özgür İrade Üzerine</title>
+    <style>
+      /* Genel Sayfa Ayarları */
+      body {
+        background-color: #0d0c1d;
+        color: #fff;
+        font-family: "Roboto", "Poppins", sans-serif; /* Fontu genel body'ye taşıdım */
+        margin: 0;
+        padding: 20px; /* Kenarlardan boşluk bıraktık */
+        display: flex;
+        justify-content: center; /* İçeriği ortalar */
+      }
+      h1 {
+        position: relative;
+        top: 10px;
+      }
+      a {
+        text-decoration: none;
+        color: #fff;
+        padding: 5px;
+        display: inline-block;
+        margin-bottom: 50px;
+        position: relative;
+        padding: 5px;
+        top: 20px;
+        background: #fc997c;
+      }
+
+      a:hover {
+        background-color: #fff;
+        cursor: pointer;
+        transition: background-color 0.5s;
+        color: #fc997c;
+      }
+
+      /* İçerik Kutusu */
+      .container {
+        display: flex;
+        flex-direction: column; /* Öğeleri alt alta dizer */
+        align-items: center; /* Öğeleri yatayda ortalar */
+        max-width: 800px; /* Çok geniş ekranlarda yazının dağılmasını engeller */
+        width: 100%;
+      }
+
+      /* Başlık Ayarları */
+      h1 {
+        margin-top: 0;
+        text-align: center;
+      }
+
+      /* Resim Ayarları */
+      img {
+        width: 200px;
+        height: 200px; /* Kare olması için yükseklik ekledim */
+        object-fit: cover; /* Resim uzamasın diye */
+        border-radius: 50%; /* Tam yuvarlak yapar */
+        margin-bottom: 20px;
+        max-width: 100%; /* Telefondan taşmasını engeller */
+      }
+
+      /* Paragraf Ayarları */
+      p {
+        width: 100%; /* Sabit px yerine yüzde kullandık */
+        max-width: 600px; /* Okuma kolaylığı için satır çok uzamasın */
+        line-height: 1.6; /* Satır aralarını açarak okunabilirliği artırdık */
+        text-align: justify; /* Yazıyı iki yana yaslar (telefonda daha şık durur) */
+        margin-bottom: 15px;
+        /* 'left' ve 'position' kodlarını sildik, buna artık gerek yok */
+      }
+
+      /* Sadece mobilde başlık ve resmi biraz küçültmek istersen */
+      @media (max-width: 600px) {
+        h1 {
+          font-size: 1.5rem;
+        }
+        img {
+          width: 150px;
+          height: 150px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <a href="index.html">Ana Menüye Dön</a>
+        </nav>
+      </header>
+      <h1>Özgür İrade</h1>
+      <img
+        src="https://ar-files.s3.eu-central-1.amazonaws.com/s3fs-public/inline-images/adobestock_368841267.jpg"
+        alt="Özgür İrade Heykeli"
+      />
+      <p>
+        Özgür irade felsefenin en büyük konularından biridir. Gerek ilkçağ
+        filozofları olsun gerek modern çağ filozofları olsun, bu konu üzerine
+        argümanlar üretmişler; birbirleri arasında <i>ad hominem</i> yapmaktan
+        uzak durarak birbirlerinin argümanlarını eleştirmişlerdir. Şimdi konumuz
+        hakkındaki argümanları dizelim.
+      </p>
+      <p>
+        Öncelikle özgür irade nedir onu anlatmak istiyorum: İnsanoğlu dünyaya
+        geldiğinden beridir nereden geldiğini ve nereye gideceğini sorgulamıştır
+        ve bu da mitleri ortaya çıkarmıştır. Mitler çıktıktan sonra bazı
+        filozoflar mitlerdeki tanrıların insanların hayatına çok karıştığını
+        düşünür ve argümanlar üretmeye başlarlar: "Özgür İrade Var Mıdır? Eğer
+        Varsa Nasıl Bilebiliriz?" Aslında bilemeyiz, bu klasik bir lafa gidiyor:
+        "Ölünce anlarsınız." Aslında bu çok realist bir yaklaşım. Bazı insanlar
+        sadece yaşıyorken de bunu anlamayı istiyor ve bunu yaşıyorken anlamaya
+        çalışan insanlara da filozof deniliyor.
+      </p>
+      <p>
+        Özgür İrade düşünen bütün insanları kuşkuya düşüren bir mevzudur kısaca
+        ne kadar çok düşünürsen o kadar emin olduklarından şüphe duyarsın bu
+        kaçınılmaz bir sondur özgür irade problemi de onlardan biridir buna tabi
+        ki istesek Kötülük Problemini de ekleyebiliriz ki bu konumuzdan o kadar
+        da farklı olmaz ama ben kendi fikirlerimi sunmaktan elimden geldiğince
+        kaçınıyorum bu yüzden hep ateist bakış açısından değil de biraz da
+        inançlı bakış açışını size sunmak istiyorum
+      </p>
+      <p>
+        Öncelikle çoğu argümanda olduğu gibi bu konudada zıtlaşmalar olmuştur en
+        büyük inançlı insanların tezinden bahsedicek olursam eğer:"Tanrı
+        kullarını yaratmıştır ve yarrattıktan sonra da hayatlarını yaşayıpta
+        kendi kendilerine iyi mi yoksa kötü mü olduklarını görmelerini
+        istemişlerdir yoksa eğer Tanrı zaten hepsinin önceden Cennete veya
+        Cehenneme gidiceğini biliyo niye hemen göndermiyo sorusunun aslında
+        inançlı kesime göre cevabı budur; "Çünkü Tanrı Hayattaki Tercihlerinizi
+        Sizinde Görmenizi istiyo."
+      </p>
+      <p>
+        Çoğu insan böyle savunur çoğu ateist kesimde buna karşı argüman olarak
+        şunu söyler laki eğer ki bizim önceden cennete veya cehenneme mi
+        gidiceğimizi biliyosa yaşayıp görsek bile bunu değiştiremeyiz çünkü
+        zaten önceden herşey belirlenmiştir mesela örnek:Diyelim anneniz ve
+        babanızda sorumsuz ebeveynler Ne anneniz sizi seviyo ne babanız hatta
+        babanız hem annenizi hem sizi dövüyo küçüklükte bu tür psikolojik
+        baskılar ve şiddetler yaşamış insanların katil olma payları kesinlikle
+        daha yüksek ikinci örnekte ise anneniz ve babanız çok iyi insanlar size
+        iyi bakmışlar okutmuşlar saygılı ve kültürlü olmanız için elinizden ne
+        gelirse yapmışlar Şimdi söyleyin bana: "Bunlardan Hangisi İlerde Kötü
+        İnsan Olur Ve Cehenneme Gider."
+      </p>
+    </div>
+  </body>
+</html>
