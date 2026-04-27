@@ -1,0 +1,79 @@
+ /* Genel Sayfa Ayarları */
+      body {
+        background-color: #0d0c1d;
+        color: #fff;
+        font-family: "Roboto", "Poppins", sans-serif; /* Fontu genel body'ye taşıdım */
+        margin: 0;
+        padding: 20px; /* Kenarlardan boşluk bıraktık */
+        display: flex;
+        justify-content: center; /* İçeriği ortalar */
+      }
+      h1 {
+        position: relative;
+        top: 10px;
+      }
+      a {
+        text-decoration: none;
+        color: #fff;
+        padding: 5px;
+        display: inline-block;
+        margin-bottom: 50px;
+        position: relative;
+        padding: 5px;
+        top: 20px;
+        background: #fc997c;
+        transition: 0.6s;
+      }
+
+      a:hover {
+        background-color: #fff;
+        cursor: pointer;
+        transition: background-color 0.6s;
+        color: #fc997c;
+        transition: 0.6s;
+      }
+
+      /* İçerik Kutusu */
+      .container {
+        display: flex;
+        flex-direction: column; /* Öğeleri alt alta dizer */
+        align-items: center; /* Öğeleri yatayda ortalar */
+        max-width: 800px; /* Çok geniş ekranlarda yazının dağılmasını engeller */
+        width: 100%;
+      }
+      /* Başlık Ayarları */
+      h1 {
+        margin-top: 0;
+        text-align: center;
+      }
+
+      /* Resim Ayarları */
+      img {
+        width: 200px;
+        height: 200px; /* Kare olması için yükseklik ekledim */
+        object-fit: cover; /* Resim uzamasın diye */
+        border-radius: 50%; /* Tam yuvarlak yapar */
+        margin-bottom: 20px;
+        max-width: 100%; /* Telefondan taşmasını engeller */
+      }
+
+      /* Paragraf Ayarları */
+      p {
+        width: 100%; /* Sabit px yerine yüzde kullandık */
+        max-width: 600px; /* Okuma kolaylığı için satır çok uzamasın */
+        line-height: 1.6; /* Satır aralarını açarak okunabilirliği artırdık */
+        text-align: justify; /* Yazıyı iki yana yaslar (telefonda daha şık durur) */
+        margin-bottom: 15px;
+        /* 'left' ve 'position' kodlarını sildik, buna artık gerek yok */
+      }
+
+      /* Sadece mobilde başlık ve resmi biraz küçültmek istersen */
+      @media (max-width: 600px) {
+        h1 {
+          font-size: 1.5rem;
+        }
+        img {
+          width: 150px;
+          height: 150px;
+        }
+      }
